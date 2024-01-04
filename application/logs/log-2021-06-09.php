@@ -1,0 +1,4 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-06-09 03:33:55 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC' at line 1 - Invalid query: SELECT * FROM mk_kicker_ranking WHERE kicker_ranking_year = 2 AND kicker_ranking_prospect = 6 ORDER BY kicker_ranking_position =  ASC 
+ERROR - 2021-06-09 03:37:40 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND kicker_ranking_prospect =  ORDER BY kicker_ranking_position ASC' at line 1 - Invalid query: SELECT * FROM mk_kicker_ranking WHERE kicker_ranking_year =  AND kicker_ranking_prospect =  ORDER BY kicker_ranking_position ASC 

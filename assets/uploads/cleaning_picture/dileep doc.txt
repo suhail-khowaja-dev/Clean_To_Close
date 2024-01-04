@@ -1,0 +1,19 @@
+Email Login:-
+benjaminwilliam3529@gmail.com
+benjamin123@
+
+
+stripe accout details:-
+benjaminwilliam3529@gmail.com
+BenjaminWilliam
+@Admin!23#
+
+publish key:-
+pk_test_51JVMm8GgXkd9k1VN6sXyZVIb6mW2s52dVAh5PC4wSljjn3NJ9xn3yIvxD82ohkBBEfchAWWXIkazd9I5qfhCsXsg00XOKEaUO0
+
+secret key:-
+sk_test_51JVMm8GgXkd9k1VNHytTjKzev7SlbYWArcxVe5NdlzCoEDXmKpH3Y3Bn8yUiRj7vgCuyX2FvxzwCQsOC2EpByBNA00wkmIZJlQ
+
+
+STRIPE_KEY=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
+STRIPE_SECRET=pk_live_51JCSZxLLdjfQkAa3l6MkYY4iaWbFdYvzHi2FJhEztJjKJVEkeaQquAgWEoLgGZpzUVSoMHFipHFQlXuSk1q9cXha00uF15iabN

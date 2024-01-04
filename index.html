@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Map Example</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="mapdata.js"></script>
+    <script src="usmap.js"></script>
+
+  </head>
+  <style>
+	  #addressModal h4{
+		font-family: gilroybold;
+		color: #495653;
+		font-size: 32px;
+		text-transform: capitalize;
+		padding-top: 5px;
+	  }#addressModal h3{
+		font-family: gilroybold;
+		color: #495653;
+		font-size: 28px;
+		text-transform: capitalize;
+		padding-top: 5px;
+	  }
+	  #addressModal h5{
+		font-family: gilroybold!important;
+		color: #000;
+		font-size: 20px;
+	  }
+	  #addressModal p{
+		font-family: gilroymedium;
+    	color: #4d4d4d;
+	  }
+	  #addressModal .cardBranches{
+		box-shadow: 1px 1px 10px -1px #00000045;
+		border-radius: 10px;
+		padding: 10px 10px 10px 10px;
+	  }
+	  .m00{
+		  margin: 0;
+	  }
+	  .modal-content{
+		border-radius: 10px;
+	  }
+	  .loopAddress>*+*{
+		  margin-top: 1rem;
+	  }
+  </style>
+	<body>
+		<div>
+			<h1>HTML5/JavaScript Map</h1>
+			<div style="width: 100%"> <!-- Keep map above fold -->
+				<div id="map"></div>
+			</div>
+		</div>
+	</body>
+</html>
+      
+    
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addressModal" hidden id="addressModalBtn">
+	Launch demo modal
+</button>
+<!-- Modal -->
+<div class="modal fade" id="addressModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-body">
+		  <h4>Clean To Close</h4>
+		  <h3></h3>
+		  <hr>
+		  <div class="loopAddress">
+			<div class="cardBranches">
+				<h5>Name:</h5>
+				<p>John Carter</p>
+				<h5>Address</h5>
+				<p class="m00">
+				  Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+  
+				  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...
+  
+				</p>
+			</div>
+			<div class="cardBranches">
+				<h5>Name:</h5>
+				<p>John Carter</p>
+				<h5>Address</h5>
+				<p class="m00">
+				  Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+  
+				  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...
+  
+				</p>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
